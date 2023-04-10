@@ -65,7 +65,6 @@ plt.title(f'Gráfico 3D da função {função}')
 # Xn = 0.5*max_range*(X-X.mean())/max_range + X.mean()
 # Yn = 0.5*max_range*(Y-Y.mean())/max_range + Y.mean()
 # Zn = 0.1*max_range*(Z-Z.mean())/max_range + Z.mean()
-# # O 0.1 é o tamanho de Z, pois sem esse valor no gráfico ele fica esticado
 # max_range = np.array([Xn.max()-Xn.min(), Yn.max()-Yn.min(), Zn.max()-Zn.min()]).max()
 # ax.set_box_aspect([np.ptp(Xn), np.ptp(Yn), 0.1*max_range])
 
